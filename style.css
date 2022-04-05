@@ -13,13 +13,14 @@ body{
 
 #minha_foto{
   width: 200px;
-  margin-top: 160px;
+  margin-top: 170px;
   margin-left: 20px;
   border-radius: 5px;
 }
 
 #licoes_a_aprender, #licoes_aprendidas{
   display: inline-block;
+  margin-left: 30px;
 }
 
 #link-github{
@@ -27,9 +28,26 @@ body{
   color: blue;
   display: block;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 #link-github:hover{
   color: black;
   font-weight: bolder;
+}
+
+#licoes{
+  font-size: 40px;
+  width: 30px;
+  margin-left: 20px;
+}
+
+#text-article p{
+  border:groove;
+  padding: 10px;
+  width: 400px;
+  display: inline-block;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
