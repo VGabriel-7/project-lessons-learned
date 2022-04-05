@@ -51,3 +51,19 @@ body{
   margin-top: 50px;
   margin-left: 20px;
 }
+
+#barra-lateral{
+  border: 2px solid red;
+  width: 200px;
+  height: 250px;
+}
+
+#barra-lateral p{
+
+}
+
+#section-aside{
+  display: inline-block;
+  margin-left: 40%;
+  : 100px;
+}
