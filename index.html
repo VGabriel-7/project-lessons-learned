@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project - Leassons Learned</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Project - Leassons Learned</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
     <header id="cabecalho">
-        <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+      <h1 id="titulo">Lições aprendidas - Trybe!</h1>
     </header>
     <main>
+      <section>
+        <img id="minha_foto" src="./img-Gabriel.jpeg" alt="Foto do Gabriel">
+        <nav>
+          <a id="link-github" href="https://github.com/VGabriel-7" target="_blank">Github</a>
+        </nav>
+      </section>
+      <section >
         <section>
-            <img id="minha_foto" src="./img-Gabriel.jpeg" alt="Foto do Gabriel">
-            <nav>
-                <a id="link-github" href="https://github.com/VGabriel-7" target="_blank">Github</a>
-            </nav>
+          <h1 id="licoes">Lições</h1>
+          <section class="lists">
+            <ol id="licoes_aprendidas">
+              <li>Unix</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Gestão de tempo</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Autoliderança</li>
+              <li>Slack</li>
+              <li>Zoom</li>
+              <li>Bash</li>
+            </ol>
+            <ul id="licoes_a_aprender">
+              <li>JavaScript</li>
+              <li>DOM</li>
+              <li>Forms</li>
+              <li>Css Responsivo</li>
+              <li>ES6</li>
+              <li>HOF</li>
+              <li>Unit Tests</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>SQL</li>
+              </ul>
+          </section>
         </section>
-            <section id="lists">
-                <h1 id="licoes">Lições</h1>
-                <ol id="licoes_aprendidas">
-                    <li>Unix</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>Gestão de tempo</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Autoliderança</li>
-                    <li>Slack</li>
-                    <li>Zoom</li>
-                    <li>Bash</li>
-                </ol>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>DOM</li>
-                    <li>Forms</li>
-                    <li>Css Responsivo</li>
-                    <li>ES6</li>
-                    <li>HOF</li>
-                    <li>Unit Tests</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>SQL</li>
-                </ul>
-            </section>
-        <article>
-            <section id="text-article">
-                <p>
-                    300 caracteres 300 caracteres 300 caracteres  300 caracteres 
-                    300 caracteres  300 caracteres  300 caracteres  300 caracteres 
-                </p>
-                <p>
-                    300 caracteres  300 caracteres  300 caracteres  300 caracteres 
-                    300 caracteres  300 caracteres  300 caracteres  300 caracteres 
-                </p>
-            </section>
+      </section>  
+      <section class="article-aside">
+        <article class="lado-esquerdo">
+          <div id="artigos">
+            <p id="primeiro-artigo">
+              300 caracteres 300 caracteres 300 caracteres  300 caracteres 
+              300 caracteres  300 caracteres  300 caracteres  300 caracteres 
+            </p>
+            <p id="segundo-artigo">
+              300 caracteres  300 caracteres  300 caracteres  300 caracteres 
+              300 caracteres  300 caracteres  300 caracteres  300 caracteres 
+            </p>
+          </div>
         </article>
-        <section id="section-aside">
-            <aside id="barra-lateral"> 
-                <p>
-                    A minha esperiência de aprendizado na 
-                    <a href="https://www.betrybe.com/" target="_blank">Trybe</a> está sendo 
-                    maravilhosa, eu nunca absorvi <b>tanto conhecimento</b> em tão pouco 
-                    tempo na <b>minha vida</b>.
-                </p>
-            </aside>
-        </section>
+        <aside class="lado-direito"> 
+          <div>
+            <h2>Meu Aprendizado:</h2>
+            <p>
+              A minha esperiência de aprendizado na 
+              <a href="https://www.betrybe.com/" target="_blank">Trybe</a> está sendo 
+              maravilhosa, eu nunca absorvi <b>tanto conhecimento</b> em tão pouco 
+              tempo na <b>minha vida</b>.
+            </p>
+          </div>
+        </aside>
+      </section>
+        <table id="tabela">
+          <tr>
+            <th class="table-layout">2</th>
+            <th class="table-layout">2</th>
+            <th class="table-layout">2</th>
+          </tr>
+          <tr>
+            <td class="table-layout">2</td>
+            <td class="table-layout">2</td>
+            <td class="table-layout">2</td>
+          </tr>
+        </table>   
     </main>
-    <footer id="rodape">
-        <p>Todos os direitos reservados, Gabriel</p>
-    </footer>
+  <footer id="rodape">
+      <p>Todos os direitos reservados, Gabriel</p>
+  </footer>
 </body>
 </html>

@@ -3,24 +3,38 @@ body{
   margin: 0px;
 }
 
+.article-aside{
+  width: 1000px;
+}
+
 #cabecalho{
   top: 0;
   position: fixed;
+  display: inline-block;
   width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #036b52;
   height: 150px;
+  z-index: 2;
+}
+
+#cabecalho h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
 }
 
 #minha_foto{
   width: 200px;
   margin-top: 170px;
-  margin-left: 20px;
-  border-radius: 5px;
+  margin-left: 40%;
+  border-radius: 50%;
 }
 
 #licoes_a_aprender, #licoes_aprendidas{
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 
 #link-github{
@@ -29,6 +43,7 @@ body{
   display: block;
   margin-left: 20px;
   margin-top: 5px;
+  width: 100px;
 }
 
 #link-github:hover{
@@ -38,32 +53,60 @@ body{
 
 #licoes{
   font-size: 40px;
-  width: 30px;
-  margin-left: 20px;
+  width: 150px;
+  margin-left: 15%;
 }
 
-#text-article p{
-  border:groove;
+#segundo-artigo, #primeiro-artig{
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lado-direito{
+  display: inline-block;
+  border: 2px solid;
+  width: 300px;
+  background-color: rgb(241, 241, 241);
+}
+.lado-esquerdo p{
   padding: 10px;
-  width: 400px;
+  border:groove;
+  margin: 4%;
+  width: 300px;
+  text-align: justify;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lado-direito h2{
+  margin-left: 4%;
+  font-family: monospace;
+}
+
+#rodape{
+  height: 40px;
+  margin-left: 30px;
+  font-style: italic;
+}
+
+#artigos{
   display: inline-block;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-left: 20px;
 }
 
-#barra-lateral{
-  border: 2px solid red;
-  width: 200px;
-  height: 250px;
+.lists{
+  width: 800px;
 }
 
-#barra-lateral p{
-
+table{
+  margin-left: 100px;
 }
 
-#section-aside{
-  display: inline-block;
-  margin-left: 40%;
-  : 100px;
+tr{
+  border-collapse:collapse;
+  border: 1px solid;
+}
+
+th{
+  border-collapse:collapse;
+  border: 1px solid;
 }
